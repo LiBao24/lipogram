@@ -4,11 +4,13 @@ publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.5.3
+  sdk: ^3.5.1
 
 dependencies:
+  camera: ^0.11.0+2
   flutter:
     sdk: flutter
+  get: ^4.6.6
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +19,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/profil-nashya.jpg
+    - assets/post-nashya.jpg
